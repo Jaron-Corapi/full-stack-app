@@ -25,7 +25,7 @@ db.once('open', () => console.log('Connected to Mongoose'))
 
 app.use('/', indexRouter)
 
-app.listen(process.env.PORT)
+app.listen(process.env.PORT || 3000)
 
 // the name of the app on git is 1st-full-stack-app
 // the name of the app on github is full-stack-app
