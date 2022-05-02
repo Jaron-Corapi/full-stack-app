@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 
-router.get('/', (req, res) => {
+router.get('https://full-stack-app-mybrary.herokuapp.com/', (req, res) => {
   res.render('index')
 })
 

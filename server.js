@@ -30,3 +30,4 @@ app.listen(process.env.PORT || 3000)
 // the name of the app on git is 1st-full-stack-app
 // the name of the app on github is full-stack-app
 // the name of the app on heroku is full-stack-app-mybrary
+// on heroku this is on the main branch, not the master branch
